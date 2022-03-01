@@ -1,0 +1,391 @@
+.order {
+  text-align: left;
+  margin-bottom: 2px;
+  height: 100%;
+}
+
+.card{
+  border-radius: 4px;
+  
+  box-shadow: 0 30px 30px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+cursor: pointer;
+}
+
+.imgshowview:hover{
+  border-radius: 4px;
+  transform: scale(1.05);
+  box-shadow: 0 30px 30px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+}
+
+.card:hover{
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: scale(1.25);
+box-shadow: 0 60px 60px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.contact{
+
+background-color: #d1d1d1;
+  border-radius: 20px;
+  box-shadow: 0 30px 30px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+cursor: pointer;
+}
+
+.contact:hover{
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: scale(1.05);
+box-shadow: 0 60px 60px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.imgcontact {
+  border-radius: 40px;
+width: 700px;
+height: 500px;
+}
+
+.contactmedia{
+  color: black;
+}
+
+.contactmedia:hover{
+  color: #ffffff;
+}
+
+.icnhome {
+  color: black;
+  text-decoration: none;
+}
+.icnhome:hover {
+  color: white;
+  text-decoration: none;
+}
+.imghome {
+  width: 400px;
+  height: 100vh;
+}
+
+.social {
+  font-size: 1px;
+}
+
+.catalog  {
+  background-color: #F0F5F9;
+  border-radius: 20px;
+  box-shadow: 0 60px 60px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.mbg {
+  background-color: #D1D1D1;
+  border-radius: 50px;
+  border: none;
+}
+.md{
+  color: black;
+}
+.md:hover {
+  color: black;
+  text-decoration: none;
+}
+.imgabout {
+  width: 500px;
+  height: 700px;
+  border-radius: 40px;
+}
+
+
+
+.ct {
+  text-align: center;
+ margin-left: 60px;
+}
+.ca {
+  padding-top: 100px;
+}
+
+.sp {
+  padding-top: 100px;
+}
+.db {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.wh{
+  color: white;
+}
+
+.btmo {
+  outline: none;
+}
+.cp3 {
+font-weight: lighter;
+}
+.lghome {
+  width: 150px;
+  height: 150px;
+}
+
+.shopee {
+  width: 30px;
+  height: 30px;
+}
+.container-fluid {
+  
+margin-bottom: 0;
+white-space: nowrap;
+position: relative;
+display: block;
+}
+
+.hmi {
+    width: 55px;
+    height: 55px;
+
+}
+.tx {
+    font-weight: bold;
+}
+
+.nv {
+    font-weight: bold;
+    font-size: 32px;
+}
+.navli {
+    font-weight: bold;
+    margin-left: 260px;
+    font-size: 15px;
+}
+
+.dashbback {
+  background-color: #ffffff;
+}
+
+.dashnav {
+  background-color: #9b9b9b;
+}
+
+.dashside{
+  background-color: #52616b ;
+}
+.dashbtn {
+ background-color: #52616b ; 
+ color: #D1D1D1;
+}
+.dashbtn:hover {
+  color: #f0f5f9;
+ }
+
+ .headdash {
+   background-color:#b6b6b6 ;
+   color: white;
+ }
+ .bddash {
+   background-color: #b6b6b6;
+   color: white;
+ }
+ .fdash {
+   background-color: #d1d1d1;
+   color: #D1D1D1;
+ }
+ .bdshow {
+   background-color: #52616b;
+   color: #D1D1D1;
+  }
+  .btndb {
+    background-color: #52616b;
+    color: white;
+  }
+  .btndb:hover {
+    color: white;
+  }
+
+.navli2 {
+  margin-left: 20px;
+}
+
+.rd {
+    border-radius: 15px;
+
+}
+.badge {
+  float: right;
+}
+.cart {
+    color: white;
+
+}
+.nav-link{
+color: black;
+}
+
+.kd {
+  color: white;
+}
+.od {
+    font-weight: bold;
+}
+
+.row {
+ height: 100%;
+ 
+}
+
+
+.footer {
+   
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #D1D1D1;
+}
+
+
+
+.footer2 {
+   
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #D1D1D1;
+}
+
+html,body {
+  min-height: 100%;
+ 
+    margin:0;
+    padding:0;
+ 
+    background-color: #E7E7E7;
+    /* overflow: hidden; */
+ 
+  }
+  /* CAROUSEL
+  -------------------------------------------------- */
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  /* Carousel base class */
+  .carousel {
+
+      height: 100%;
+      width: 100%;
+    /* margin-bottom: 4rem; */
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 41rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 153rem;
+  }
+  
+  
+  /* CONTENT
+  -------------------------------------------------- */
+  
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    /* margin: 5rem 0; Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  @media (max-width: 1080px) { 
+    .navbar{
+        display:none;
+    }
+    .catalog {
+      display: none;
+    }
+}
+
+@media (max-width: 720px) { 
+ .cp {
+   font-size: 18px;
+   font-weight: bold;
+ }
+ .lghome {
+   width: 100px;
+   height: 100px;
+ }
+
+ .cp2 {
+   text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cp3 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+}
+  @media (min-width: 40em) {
+  
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+   
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
