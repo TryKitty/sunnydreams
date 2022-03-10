@@ -1,9 +1,8 @@
-
 <br />
 <div class="container-fluid">
- <div class="col-md-12">
+ <div class="col-md-12 text-dark">
   <a href="{{ route('Dashboard-contact.create') }}"
-   class="btn btn-md btn-danger mb-3 float-right">
+   class="btn btn-md btn-secondary mb-3 float-right">
    <i class="bx bx-plus text-light"></i></a><br>
   @forelse ($show as $data )
   <div class="container-fluid">
@@ -102,10 +101,10 @@ onsubmit="return confirm('Apakah Anda Yakin ?');"
  enctype="multipart/form-data"
  class="mb-3">
  <a href="{{ route('Dashboard-contact.edit', $data->id) }}"
-  class="btn btn-sm btn-danger"
+  class="btn btn-sm btn-secondary"
   ><i class="bx bx-edit"></i></a>
  @csrf @method('DELETE')
- <button type="submit" class="btn btn-sm btn-danger">
+ <button type="submit" class="btn btn-sm btn-secondary">
   <i class="bx bx-trash"></i>
  </button>
 </form>

@@ -11,7 +11,7 @@
       enctype="multipart/form-data">
       @csrf
       <div class="col-md-12 mt-3">
-       <button type="submit" class="btn btn-md btn-danger float-right">
+       <button type="submit" class="btn btn-md btn-secondary float-right">
         <i class="bx bx-save"></i>
        </button>
        <div class="form-group">
@@ -43,8 +43,7 @@
            type="text"
            name="iconinstagram"
            class="form-control"
-           required
-          />
+           required/>
          </div>
         </div>
         <div class="col-md-3 mt-3">
@@ -67,10 +66,8 @@
           <input
            type="text"
            name="iconshopee"
-           class="form-control"
-           zz
-           required
-          />
+           class="form-control" 
+           required/>
          </div>
         </div>
        </div>

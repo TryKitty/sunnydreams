@@ -28,6 +28,9 @@ cursor: pointer;
 box-shadow: 0 60px 60px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
+.btnhome {
+  text-decoration: none;
+}
 
 .contact{
 
@@ -130,8 +133,13 @@ height: 500px;
 font-weight: lighter;
 }
 .lghome {
+  border-radius: 40px;
   width: 150px;
   height: 150px;
+  border-right: #52616b;
+}
+.ftcatalog {
+  font-size: 12px;
 }
 
 .shopee {
@@ -210,6 +218,9 @@ display: block;
 
 .navli2 {
   margin-left: 20px;
+}
+.bghome {
+  background-color: white;
 }
 
 .rd {

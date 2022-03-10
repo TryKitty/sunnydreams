@@ -14,7 +14,7 @@
       <div class="row">
        <div class="col-md-12 mt-3">
         @csrf
-        <button type="submit" class="btn btn-md btn-danger float-right">
+        <button type="submit" class="btn btn-md btn-secondary float-right">
          <i class="bx bx-save"></i>
         </button>
         <div class="form-group">

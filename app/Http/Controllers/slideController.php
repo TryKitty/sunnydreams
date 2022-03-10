@@ -67,7 +67,7 @@ class slideController extends Controller
        public function edit(Request $request, $id)
        {
            $show = slideModel::findOrFail($id);
-           return view('dashboard.slide.update', compact('show'));
+           return view('Dashboard-slide.update', compact('show'));
        }
  
        public function update(Request $request, $id)
@@ -100,4 +100,5 @@ class slideController extends Controller
              ]);
           }
         }
+        
 }

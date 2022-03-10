@@ -9,7 +9,7 @@ class shopModel extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'image','catalog_id','namaproduk','harga','stok'
+        'image','catalog_id','namaproduk','harga','desc'
     ];
     
     public function catalog() {

@@ -3,7 +3,7 @@
  <div class="col-md-12">
   <a
    href="{{ route('Dashboard-shop.create') }}"
-   class="btn btn-md btn-danger mb-3 float-right"
+   class="btn btn-md btn-secondary mb-3 float-right"
    ><i class="bx bx-plus text-light"></i
   ></a>
   <br />
@@ -18,7 +18,7 @@
         <th class="table-warning" scope="col">Nama</th>
         <th class="table-warning" scope="col">Harga</th>
         <th class="table-warning" scope="col">Catalog</th>
-        <th class="table-warning" scope="col">Stok</th>
+        <th class="table-warning" scope="col">Deskripsi</th>
         <th class="table-warning" scope="col"></th>
        </tr>
       </thead>

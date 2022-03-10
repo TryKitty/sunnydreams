@@ -14,7 +14,7 @@
       <div class="row">
        <div class="col-md-12 mt-3">
         @csrf
-        <button type="submit" class="btn btn-md btn-danger float-right">
+        <button type="submit" class="btn btn-md btn-secondary float-right">
          <i class="bx bx-save"></i>
         </button>
         <div class="form-group">
@@ -25,19 +25,19 @@
        </div>
        <div class="col-md-12">
         <div class="row">
-         <div class="col-md-3">
+         <div class="col-md-4">
           <div class="form-group">
            <label for="namaproduk">Nama produk</label>
            <input type="text" name="namaproduk" class="form-control" required />
           </div>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-4">
           <div class="form-group">
            <label for="harga">Harga produk</label>
-           <input type="number" name="harga" class="form-control" required />
+           <input type="text" name="harga" class="form-control" required />
           </div>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-4">
           <form class="form-grup text-center">
            <label class="" for="catalog">Catalog</label> <br />
            <select class="custom-select" id="catalog_id" name="catalog_id">
@@ -47,12 +47,13 @@
            </select>
           </form>
          </div>
-         <div class="col-md-3">
-          <div class="form-group">
-           <label for="stok">Stok</label>
-           <input type="number" name="stok" class="form-control" required />
-          </div>
-         </div>
+         <div class="col-md-12">
+             Desc produk
+         <div class="form-group mt-2">
+            <input id="desc" type="hidden" name="desc" />
+            <trix-editor input="desc" name="desc" required></trix-editor>
+           </div>
+        </div>
         </div>
        </div>
        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

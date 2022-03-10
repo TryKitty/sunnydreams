@@ -2,7 +2,7 @@
 <div class="container-fluid sp mt-4">
     <div class="col-md-12">
 <div class="row">
-  @forelse ($shop as $data)
+@foreach ($shop as $data )
 <div class="col-md-3"> 
   <a href="/shop-view/{{$data->id}}"> 
   <div class="card bg-white text-light border-0 rd">   
@@ -16,14 +16,12 @@
   </a>
 </div>
 <br>
-@empty
-  aduhjangan la
-  @endforelse
+  @endforeach
 </div>
 </div>
 </div>
 <br>
-<footer class="footer">
+<footer class="footer2">
 <div class="container">
 <span class="text-muted"> <b> ©Sunnydreams.2022 </b> </span>
 </div>

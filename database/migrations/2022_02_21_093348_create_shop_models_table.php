@@ -19,7 +19,7 @@ class CreateShopModelsTable extends Migration
             $table->text('image');
             $table->text('namaproduk');
             $table->text('harga');
-            $table->text('stok');
+            $table->text('desc');
             $table->timestamps();
         });
     }

@@ -23,8 +23,7 @@
         <div class="card mb-3 contact">
          <a
           class="contactmedia"
-          href="https://www.instagram.com/{{ $data->instagram }}/"
-         >
+          href="https://www.instagram.com/{{ $data->instagram }}/">
           <i class="{{ $data->iconinstagram }} fa-8x"></i>
          </a>
          @endforeach

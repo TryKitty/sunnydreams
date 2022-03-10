@@ -1,20 +1,21 @@
 @include('front.navbar.navbar')
 
 <main role="main" class="justify-content-center">
- <div class="container-fluid sticky-bottom">
+ <div class="container-fluid sticky-bottom ">
   <div class="row featurette h-100 justify-content-center flex-wrap">
-   <div class="col-md-8 mt-2 mb-0 h-100">
+   <div class="col-md-8 mt-2 mb-0 h-100 bghome">
     @foreach ($home as $data )
     <h2 class="featurette-heading">
+        <a class="btnhome" href="/catalog">
      <button type="button" class="btn btn-lg btn-outline-secondary rd text-center">
-      {{ $data->btn }}
-     </button>
+     {{ $data->btn }} 
+     </button></a>
      <h4 class="cp">{!! $data->btndesc !!}</h4>
     </h2>
     <div class="row p-0 text-center">
-     <div class="col-4 p-0 mr-0">
+     <div class="col-3 p-0  mr-0 mt-5">
       <img
-       class="lghome"
+       class="lghome img-fluid"
        src="{{ asset('storage/'. $data->image) }}"
        alt=""
        srcset=""
@@ -22,14 +23,19 @@
      </div>
      <div class="col-6 ml-0 p-0">
       <div class="col-md-6"><h2 class="cp2">{{ $data->tcatalog }}</h2></div>
-      <div class="col-md-6"><h4 class="cp3">{!! $data->dcatalog !!}</h4></div>
+      <div class="col-md-6">
+          <p class="lead"> <h5 class="cp3">{!! $data->dcatalog !!}
+        </h5></p>
+         </div>
      </div>
     </div>
-    @endforeach @foreach ($catalog as $data )
+    @endforeach 
+    @foreach ($catalog as $data )
     <p class="lead">
+        <a class="btnhome" href="/catalog/{{$data->id}}">
      <button type="button" class="btn btn-outline-secondary rd mt-1">
       {{ $data->name }}
-     </button>
+     </button> </a>
     </p>
     @endforeach
     <p class="text-left order">

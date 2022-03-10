@@ -29,7 +29,7 @@ class shopController extends Controller
            'namaproduk' =>'required',
            'catalog_id' =>'required',
              'harga' => 'required',
-             'stok' => 'required',
+             'desc' => 'required',
        ]);
        
        if ($request->file('image')){
@@ -88,7 +88,7 @@ class shopController extends Controller
             'namaproduk' =>'required',
             'catalog_id' =>'required',
               'harga' => 'required',
-              'stok' => 'required',
+              'desck' => 'required',
 
         ];
         
